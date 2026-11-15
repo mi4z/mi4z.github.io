@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eee8de">
+  <meta name="description" content="Merve Yılmaz'ın moda tasarımı, illüstrasyon ve çizim çalışmalarından seçilmiş bir arşiv.">
+  <title>Merve Yılmaz — Çalışmalar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#works">Çalışmalara geç</a>
+  <header class="site-head">
+    <a class="wordmark" href="#top" aria-label="Merve Yılmaz, başa dön">MY<span class="wordmark-dot">.</span></a>
+    <span class="head-center">MERVE YILMAZ&nbsp; / &nbsp;ÇALIŞMALAR</span>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="work-menu">İÇİNDEKİLER <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <nav class="work-menu" id="work-menu" aria-label="Defterlere git" hidden></nav>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-left">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ÇİZGİDEN FORMA / BİR ÇALIŞMA ARŞİVİ</p>
+        <h1 id="hero-title">Merve<br><em>Yılmaz.</em></h1>
+        <div class="hero-intro">
+          <p>Moda tasarımı, illüstrasyon ve çizim çalışmaları.</p>
+          <a href="#works" class="discover">DEFTERLERİ GÖR <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-art-label top">ÇİZGİ &nbsp;/&nbsp; DOKU &nbsp;/&nbsp; FORM</div>
+        <svg class="thread-art" viewBox="0 0 710 790" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9928b"/><stop offset=".48" stop-color="#6d474c"/><stop offset="1" stop-color="#3a3033"/></linearGradient>
+            <linearGradient id="sheen" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e1c6b2" stop-opacity=".7"/><stop offset="1" stop-color="#cab4a3" stop-opacity="0"/></linearGradient>
+            <filter id="shadow"><feDropShadow dx="10" dy="20" stdDeviation="25" flood-color="#241e1a" flood-opacity=".22"/></filter>
+          </defs>
+          <path d="M207 84C139 147 116 229 156 284c47 67 127 29 171 94 64 95-26 183 25 252 25 35 78 43 131 24 54-19 126-65 151-129 26-69-47-94-79-150-46-78 7-170-66-224-58-43-125-4-169-42-33-28-57-52-113-25Z" fill="url(#fabric)" filter="url(#shadow)"/>
+          <path d="M215 80c25 84 12 132 48 182 35 49 116 60 121 119 5 52-51 100-34 180 7 34 25 65 44 89M272 79c9 92 2 142 47 197 28 34 102 62 98 112-6 77-43 123-8 204 13 30 35 51 61 60M328 94c-3 76 17 133 58 182 43 50 87 64 77 130-12 75-9 114 17 155 12 20 38 43 62 54M388 102c-13 78 26 126 60 171 58 75 61 105 45 157-22 67 17 130 71 148" stroke="url(#sheen)" stroke-width="3" stroke-linecap="round"/>
+          <path d="M89 170C177 78 219 38 298 88c74 47 53 111 116 148 64 37 134 5 161 62 19 40-31 90-7 126 25 37 85 31 79 88-5 54-50 103-116 119" stroke="#382d2d" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 9"/>
+          <path d="M107 195c29-41 59-52 92-52" stroke="#382d2d" stroke-width="2"/><circle cx="108" cy="196" r="5" fill="#382d2d"/>
+          <path d="M413 35c-31 66-20 107 36 137 57 31 83 79 56 127" stroke="#e9d2b7" stroke-width="2"/>
+          <path d="M188 466c75-66 117-53 158-2M448 633c-13 61-43 84-78 104" stroke="#e9d2b7" stroke-width="1.4" opacity=".7"/>
+        </svg>
+        <div class="hero-art-label bottom">01 — 08 &nbsp; / &nbsp; TASARIM DEFTERLERİ</div>
+      </div>
+      <div class="hero-foot"><span>PORTFÖY / 2026</span><span>İLHAM, DENEME, SONUÇ</span><span class="hero-scroll">AŞAĞI KAYDIR <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <div id="works" class="works" aria-label="Çalışma defterleri"></div>
+    <footer class="site-foot"><span>MY<span class="wordmark-dot">.</span></span><p>Çizgiden forma, bir çalışma arşivi.</p><a href="#top">BAŞA DÖN ↑</a></footer>
+  </main>
+
+  <dialog class="lightbox" aria-label="Görseli büyüt">
+    <div class="lightbox-head"><span class="lightbox-caption"></span><button class="lightbox-close" type="button" aria-label="Görseli kapat">KAPAT ×</button></div>
+    <div class="lightbox-scroller"><img class="lightbox-image" alt=""></div>
+    <div class="lightbox-foot">BÜYÜTMEK İÇİN GÖRSELE TIKLA · ESC İLE KAPAT</div>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
